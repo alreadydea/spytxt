@@ -36,7 +36,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"])& ~filters.edited)
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by BATMAN")
+    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by Gagan")
 
 @bot.on_message(filters.command(["cancel"]))
 async def cancel(_, m):
