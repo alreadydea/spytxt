@@ -1,6 +1,6 @@
 # Join Me... 
 <a href="https://t.me/devgagan">
-     <img height="30px" src="https://telegra.ph/file/e6b0772e46994304f9a00.jpg">
+     <img height="100px" src="https://telegra.ph/file/e6b0772e46994304f9a00.jpg">
   </a>
 
 ## Deploy To Heroku
