@@ -76,6 +76,7 @@ async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(f"Total links found are **{len(links)}**\n\nSend From where you want to download initial is **0**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text = input1.text
+    download by = input1.text
 
 
     try:
